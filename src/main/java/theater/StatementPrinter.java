@@ -48,7 +48,7 @@ public class StatementPrinter {
         for (Performance performance : invoice.getPerformances()) {
 
             int rslt = 0;
-            rslt = getAmount(performance, getPlay(performance));
+            rslt = getAmount(performance);
 
             // add volume credits
             volumeCredits += Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
