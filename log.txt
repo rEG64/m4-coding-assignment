@@ -1,2 +1,5 @@
-438397c (HEAD -> main, origin/main, origin/HEAD) Task 1.1
+d2b05eb (HEAD -> main, origin/main, origin/HEAD) Task 2.1
+4b2af4d bit step
+37e68b2 Task 1.2
+438397c Task 1.1
 f787820 Initial commit
