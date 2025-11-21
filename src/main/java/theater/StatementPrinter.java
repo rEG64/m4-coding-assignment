@@ -60,7 +60,8 @@ public class StatementPrinter {
                     NumberFormat.getCurrencyInstance(Locale.US).format(rslt / Constants.PERCENT_FACTOR), performance.getAudience()));
             totalAmount += rslt;
         }
-        result.append(String.format("Amount owed is %s%n", NumberFormat.getCurrencyInstance(Locale.US).format(totalAmount / Constants.PERCENT_FACTOR)));
+        result.append(String.format("Amount owed is %s%n", NumberFormat.getCurrencyInstance(Locale.US)
+                .format(totalAmount / Constants.PERCENT_FACTOR)));
         result.append(String.format("You earned %s credits%n", volumeCredits));
         return result.toString();
     }
