@@ -1,4 +1,7 @@
-d2b05eb (HEAD -> main, origin/main, origin/HEAD) Task 2.1
+bdc1bbc (HEAD -> main, origin/main, origin/HEAD) Task 2.3
+16d3981 Task 2.2
+54a420d Task 2.1
+d2b05eb Task 2.1
 4b2af4d bit step
 37e68b2 Task 1.2
 438397c Task 1.1

@@ -57,7 +57,8 @@ public class StatementPrinter {
 
             // print line for this order
             result.append(String.format("  %s: %s (%s seats)%n", getPlay(performance).getName(),
-                    NumberFormat.getCurrencyInstance(Locale.US).format(rslt / Constants.PERCENT_FACTOR), performance.getAudience()));
+                    NumberFormat.getCurrencyInstance(Locale.US)
+                            .format(rslt / Constants.PERCENT_FACTOR), performance.getAudience()));
             totalAmount += rslt;
         }
         result.append(String.format("Amount owed is %s%n", NumberFormat.getCurrencyInstance(Locale.US)
